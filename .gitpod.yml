@@ -1,0 +1,8 @@
+tasks:
+- command: yarn
+ports:
+- port: 8080
+  onOpen: open-browser
+- port: 8888
+  onOpen: ignore
+  visibility: public
